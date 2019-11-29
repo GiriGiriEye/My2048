@@ -1,6 +1,7 @@
 
 public class GameTest {
 	//2048
+	//新建一个二维数组
 	static int[][] area = new int[6][6];
 	
 	public static void main(String[] args) {
@@ -8,6 +9,7 @@ public class GameTest {
 		
 	}
 	
+	//一些初始化和移动操作
 	static void init() {
 		for(int i = 0; i < 6; i++) {
 			for(int j = 0; j < 6; j++) {
