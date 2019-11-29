@@ -248,6 +248,7 @@ public class GameTest {
 		}
 	}
 	
+	//判断是否还能接着走，没做好，先就这样吧
 	static boolean available() {
 		boolean result = false;
 		
