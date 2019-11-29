@@ -47,6 +47,7 @@ public class GameTest {
 		}
 	}
 	
+	//上移
 	static void w() {
 		for(int p = 0; p < 6; p++) {
 			for(int i = 0; i < 6; i++)
@@ -98,6 +99,7 @@ public class GameTest {
 		
 	}
 	
+	//下移
 	static void s() {
 		for(int p = 0; p < 6; p++) {
 			for(int i = 5; i > -1; i--)
@@ -148,6 +150,7 @@ public class GameTest {
 		}
 	}
 	
+	//左移
 	static void l() {
 		for(int p = 0; p < 6; p++) {
 			for(int i = 0; i < 6; i++)
@@ -198,6 +201,7 @@ public class GameTest {
 		}
 	}
 	
+	//右移
 	static void r() {
 		for(int p = 0; p < 6; p++) {
 			for(int i = 5; i > -1; i--)
